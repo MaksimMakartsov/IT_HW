@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #281c56cd;
+    margin: 100px;
+}
+
+.content{
+    padding: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: bisque;  
+}
+
+.ramka{
+    background: url(../img/hw№4/top-left.png) no-repeat left top,
+    url(../img/hw№4/top-right.png) no-repeat right top,
+    url(../img/hw№4/bottom-right.png) no-repeat right bottom,
+    url(../img/hw№4/bottom-left.png) no-repeat left bottom,
+    url(../img/hw№4/left.png) repeat-y left,
+    url(../img/hw№4/top.png) repeat-x top,
+    url(../img/hw№4/right.png) repeat-y right,
+    url(../img/hw№4/bottom.png) repeat-x bottom;
+}
