@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #281c56cd;
+    background: #281c56;
     margin: 100px;
 }
 
@@ -14,6 +14,7 @@ body{
     text-transform: uppercase;
     font-size: 18px;
     color: bisque;  
+    font-family: 'Mate SC', serif;
 }
 
 .ramka{
