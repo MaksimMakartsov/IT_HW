@@ -18,7 +18,8 @@ body{
 }
 
 .ramka{
-    background: url(../img/hw№4/top-left.png) no-repeat left top,
+    background:
+    url(../img/hw№4/top-left.png) no-repeat left top,
     url(../img/hw№4/top-right.png) no-repeat right top,
     url(../img/hw№4/bottom-right.png) no-repeat right bottom,
     url(../img/hw№4/bottom-left.png) no-repeat left bottom,
