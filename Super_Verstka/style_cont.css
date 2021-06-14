@@ -3,6 +3,7 @@ form{
     font-size: 20px;
     height: 420px;
     width: 350px;
+    border: 2px solid white;
 }
 
 button{
@@ -15,7 +16,29 @@ button{
     font-family: 'Times New Roman', Times, serif;
 }
 
+h1{
+    color: rgb(162, 162, 162);
+    border: 2px solid white;
+    background: white;
+}
+
 button:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(141, 141, 141);
     background: rgb(94, 93, 93);
+}
+
+.label_name{
+    margin-right: 35px;
+}
+
+.label_age{
+    margin-right: 5px;
+}
+
+.label_email{
+    margin-right: 25px;
+}
+
+.label_tel{
+    /* margin-right: 1px; */
 }
