@@ -1,13 +1,13 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(172, 171, 172);
+    background-color: #fcf8e6;
 }
 
 header{
     height: 80px;
     text-align: center;
-    background: rgb(150, 150, 150);
+    background: #ffdd9f;
 }
 
 h1{
@@ -33,17 +33,17 @@ h1{
 .tel{
     display: block;
     text-decoration: none;
-    color: seashell;
+    color: rgb(29, 29, 29);
     font-size: 18px;
     margin-top: 10px;
 }
 
 .tel:hover{
-    color: black;
+    color: silver;
 }
 
 main{
-    background: silver;
+    background: #f1e6c0;
     text-align: center;
     height: 600px;
 }
@@ -56,7 +56,7 @@ main{
     display: inline-block;
     width: 200px;
     text-decoration: none;
-    color: #ffffff;
+    color: grey;
     border: 2px solid grey;
     margin-left: 50px;
     padding: 10px;
@@ -76,7 +76,7 @@ iframe{
 }
 
 footer{
-    background: #919191;
+    background: #ffdd9f;
     height: 60px;
 }
 
@@ -94,7 +94,7 @@ footer{
 }
 
 .link:hover{
-    color: white;
+    color: black;
 }
 
 .author {

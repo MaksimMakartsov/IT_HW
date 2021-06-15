@@ -4,9 +4,16 @@ body{
 
 div{
     font-size: 18px;
+    border: 2px solid #fcf8e6;
+    border-radius: 10px;
+    background: #fcf8e6;
+    color: #545454;
 }
 
 h1{
-    color: rgb(238, 237, 238);
+    color: silver;
+    border: 2 px solid #fcf8e6;
+    background: #ffdd9f;
+    border-radius: 10px;
 }
 
