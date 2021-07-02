@@ -1,0 +1,45 @@
+body{
+    
+}
+
+.one{
+    text-align: center;
+    display: block;
+}
+
+.one_row{
+    border: 2px solid red;
+}
+
+.one_table{
+    display: inline-block;
+    
+}
+
+.one_td{
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.one_td:not(:last-child){
+    border-right: 2px solid rgb(255, 0, 0);
+}
+
+.two{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.two_line{
+    width: 119px;
+    display: inline-block;
+}
+
+p{
+    margin: 0;
+}
+
+.img{
+    display: inline-block;
+}
+
