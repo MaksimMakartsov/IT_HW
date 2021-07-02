@@ -1,0 +1,42 @@
+form{
+    text-align: center;
+    font-size: 20px;
+    height: 420px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 14px;
+    background: rgb(114, 114, 114);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+h1{
+    color: rgb(162, 162, 162);
+    border: 2px solid white;
+    background: white;
+}
+
+button:hover{
+    color: rgb(141, 141, 141);
+    background: rgb(94, 93, 93);
+}
+
+.label_name{
+    margin-right: 35px;
+}
+
+.label_age{
+    margin-right: 5px;
+}
+
+.label_email{
+    margin-right: 25px;
+}
