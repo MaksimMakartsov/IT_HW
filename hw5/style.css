@@ -1,0 +1,51 @@
+*{
+    border: 0;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: chartreuse;
+}
+
+.menu-left {
+    text-align: center;
+    width: 15%;
+    background:darkgoldenrod ;
+}
+
+.v-sports{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+    text-align: center;
+}
+
+h1{
+    font-size: 18px;
+}
+
+.v-sports:hover{
+    color: blanchedalmond;
+}
+
+.cont {
+    background-color: chocolate;
+}
+.right {
+    width: 200px;
+    background: darkblue;
+}
+.footer {
+    background: darkcyan;
+    text-align: center;
+}
+
+
+.img {
+    float: left;  
+    margin: 10px; 
+   }

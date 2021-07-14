@@ -1,0 +1,23 @@
+h1{
+    margin: 5px;
+}
+
+.date{
+    color: green;
+}
+
+.chemp{
+    color: red;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+}
+
+
+
+.n-str a{
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+}

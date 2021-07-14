@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: darkblue;
+}
+
+.link_stars{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.wrapper{
+    font-size: 50px;
+}
+
+.stars{
+    color: rgb(255, 255, 255);
+}
+
+.stars::before{
+    content: "★";
+}
+
+.stars:hover,
+.stars:hover ~ .stars{
+    color: rgb(255, 230, 0);
+}

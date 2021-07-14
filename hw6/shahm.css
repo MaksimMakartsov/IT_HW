@@ -1,0 +1,53 @@
+table{
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+.row_first{
+    height: 5px;
+    background: rgb(19, 51, 0);
+    border: 1px solid black;
+
+}
+
+.row_last{
+    height: 5px;
+    background: rgb(19, 51, 0);
+    border: 1px solid black;
+
+}
+
+.stolb{
+    border: 1px solid black;
+    width: 20px;
+    height: 10px;
+}
+
+
+
+.stolb_bord:first-child,
+.stolb_bord:last-child{
+    background-color: rgb(19, 51, 0);
+    width: 10px;
+    border: 1px solid black;
+}
+
+.row:nth-child(odd)
+.stolb:nth-child(odd){
+    background: black;
+}
+
+.row:nth-child(even)
+.stolb:nth-child(even){
+    background: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
