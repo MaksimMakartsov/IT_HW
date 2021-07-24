@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+header {
+    background: cadetblue;
+    height: 20px;
+}
+
+main {
+    background: coral;
+    min-height: calc(100% - 40px);
+}
+
+footer{
+    background: cornflowerblue;
+    height: 20px;
+}
