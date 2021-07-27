@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 p{
     margin-top: 10px ;
 }
@@ -125,7 +129,6 @@ header{
 .header_btn:hover{
     background: #fdbe33;
     font-weight: 700;
-    border-radius: 10px;
     transform: scale(0.9);
 }
 
@@ -172,7 +175,6 @@ header{
 .btn:hover{
         background: #031026;
         font-weight: 700;
-        border-radius: 10px;
         transform: scale(0.9);
 }
 
@@ -182,6 +184,8 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr;
+    justify-items: center;
+    background: #031026;
 }
 
 .link-work {
@@ -190,6 +194,7 @@ header{
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+    max-width: 300px;
 }
 
 .link-work:hover{
@@ -261,13 +266,6 @@ header{
     margin: 15px;
 }
 
-.img-bild:hover,
-.img-serv:hover,
-.img-latest:hover{
-    transform: scale(1.1);
-    border-radius: 10px;
-}
-
 .sub-title-bild {
     color: #fdbe33;
 }
@@ -287,7 +285,6 @@ header{
 }
 
 .btn-bild:hover{
-    border-radius: 10px;
     background: #031026;
     color: #fdbe33;
     transform: scale(1.1);
@@ -347,6 +344,7 @@ header{
     grid-template-rows: 1fr 1fr;
     gap: 15px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .img-serv{
@@ -380,8 +378,7 @@ header{
 }
 
 .img-plus:hover{
-    transform: scale(1.2);
-    border-radius: 5px;
+    transform: scale(1.1);
 }
 
 .text-servise{
@@ -436,6 +433,7 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 20px;
 }
 
 .sub-title-team {
@@ -484,10 +482,6 @@ header{
     color: wheat;
 }
 
-.item-team:hover{
-    transform: scale(1.1);
-}
-
 /* section-seven */
 
 .section-seven {
@@ -499,6 +493,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     margin-top: 40px;
+    padding: 20px;
 }
 
 .sub-title-ask {
@@ -628,6 +623,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0 15px;
+    padding: 20px;
 }
 
 .wrapper-latest-item {
@@ -772,7 +768,6 @@ form{
     color: #141619;
     background: #fdbe33;
     border: 1px solid #141619;
-    border-radius: 10px;
 }
 
 .wrapper-link-footer{
@@ -788,6 +783,12 @@ form{
 
 .link-footer {
     color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.link-footer:hover {
+    color: #fdbe33;
     margin-right: 10px;
     padding: 10px;
 }
@@ -1106,6 +1107,10 @@ form{
 
     .title{
         font-size: 15px;
+    }
+
+    .title-team{
+        font-size: 25px;
     }
 }
 
